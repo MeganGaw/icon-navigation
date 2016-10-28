@@ -1,10 +1,10 @@
 html {
-  font-family: sans-serif;
+  font-family: "Abhaya Libre", serif;
 }
 
 .logo {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .nav {
@@ -15,21 +15,28 @@ html {
   background-color: #15114c;
   color: #fff;
   border-radius: 8px;
-  text-decoration: none; 
+  text-decoration: none;
+
 }
 
 @media only screen and (min-width: 60em) {
-  .logo {
-  text-align: left;
-}
 
-.nav {
-  text-align: right;
-}
+  .logo {
+    text-align: left;
+
+  }
+
+  .nav {
+    text-align: right;
+  }
 }
 
 .masthead {
   background-color: #423ca3;
-  font-family: 'Abhaya Libre', serif;
-  
+
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
 }
